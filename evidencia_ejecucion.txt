@@ -1,0 +1,34 @@
+> python analisis_basico.py
+TAREA 1 - Variables y f-string
+Producto: Teclado; precio: $125.50; stock: 12; descuento: True
+
+TAREA 2 - Bucle y condicional
+$45.00: Económico
+$100.00: Económico
+$125.50: Caro
+$80.00: Económico
+$210.00: Caro
+
+TAREA 3 - Diccionario y stock
+Almacén actualizado: {'Teclado': 12, 'Mouse': 25, 'Monitor': 8, 'Auriculares': 15}
+Stock de Mouse: 25
+
+TAREA 4 - Función de resumen
+Resumen de precios: {'total': 560.5, 'promedio': 112.1, 'cantidad': 5}
+Ejemplo [10, 20, 30]: {'total': 60, 'promedio': 20.0, 'cantidad': 3}
+Lista vacía: {'total': 0, 'promedio': None, 'cantidad': 0}
+
+> python -m unittest -v test_analisis_basico
+test_firma_un_solo_parametro (test_analisis_basico.TestPractica.test_firma_un_solo_parametro) ... ok
+test_lista_vacia (test_analisis_basico.TestPractica.test_lista_vacia) ... ok
+test_lista_y_diccionario (test_analisis_basico.TestPractica.test_lista_y_diccionario) ... ok
+test_no_modifica_entrada (test_analisis_basico.TestPractica.test_no_modifica_entrada) ... ok
+test_resumen_decimales_y_negativos (test_analisis_basico.TestPractica.test_resumen_decimales_y_negativos) ... ok
+test_resumen_ejemplo_consigna (test_analisis_basico.TestPractica.test_resumen_ejemplo_consigna) ... ok
+test_salida_y_umbral (test_analisis_basico.TestPractica.test_salida_y_umbral) ... ok
+test_tipos_basicos (test_analisis_basico.TestPractica.test_tipos_basicos) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK
